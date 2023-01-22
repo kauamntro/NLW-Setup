@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NLW Setup</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4392147116.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <img src="assets/dark.svg" alt="Logo" id="logo">
+            <div>
+                <div class="container-themes">
+                    <button id="btn-theme" class="btn-display btn-hover">🌗</button>
+                    <div class="container-btns">
+                        <button id="btn-light" class="btn-display btn-hover">🌞</button>
+                        <button id="btn-dark" class="btn-display btn-hover">🌚</button>
+                    </div>
+                </div>
+                <button id="register"><img src="assets/plus.svg" alt="Plus icon"> <span>Registrar o meu dia</span></button>
+            </div>
+        </header>
+
+        <form>
+            <div class="habits">
+                <div class="habit" data-name="run">🏃‍♂️</div>
+                <div class="habit" data-name="water">💧</div>
+                <div class="habit" data-name="food">🍎</div>
+                <div class="habit" data-name="ler">📕</div>
+                <div class="habit" data-name="gym">🏋️‍♀️</div>
+                <div class="habit" data-name="program">💻</div>
+                <div class="habit" data-name="bible">📖</div>
+            </div>
+
+            <div class="days"></div>
+        </form>
+        <span class="made-by">Feito por <a href="https://github.com/kauamntro" target="_blank">Kauã Monteiro</a></span>
+        <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
