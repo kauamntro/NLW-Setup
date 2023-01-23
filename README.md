@@ -42,7 +42,7 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 ## 🕶 Diferencial
 
-Como a gente sempre devemos inovar, nos desafiarmos e irmos além do esperado, quis fazer um diferencial, a partir
+Como a gente sempre deve inovar, nos desafiarmos e irmos além do esperado, quis fazer um diferencial, a partir
 disso decidir testar meus conhecimentos em JS, e fazer um Theme Selector 🌗
 <p align="center">
   <img alt="Um diferencial" src=".github/diferencial.png" width="100%">
